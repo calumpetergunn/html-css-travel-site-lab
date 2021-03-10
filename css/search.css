@@ -1,3 +1,44 @@
 .where-togo {
+    background-color: black;
+    color: blanchedalmond;
+    margin: 50px;
+    padding: 50px;
+}
+
+.where-to {
+    background-color: black;
+    color: blanchedalmond;
+    width: 25%;
+    height: 35px;
+    border-radius: 6px;
+}
+.travel-date {
+    background-color: black;
+    color: blanchedalmond;
+    width: 25%;
+    height: 35px;
+    border-radius: 6px;
+
+}
+.travel-type {
+    background-color: black;
+    color: blanchedalmond;
+    width: 25%;
+    height: 35px;
+    border-radius: 6px;
+
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 0px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    height: 35px;
     
 }

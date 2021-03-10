@@ -1,0 +1,78 @@
+
+#grid-container{
+    display: grid;
+    grid-template-areas: 
+    'topl topm topr'
+    'botl botm botr';
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.popular > h2 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Beth Ellen', cursive;
+}
+
+#grid-container > a {
+    font-family: 'Beth Ellen', cursive;
+    text-decoration: none;
+    color: blanchedalmond;
+    text-align:
+}
+
+.pd-1 {
+    background-image: url(../img/destination/italy.png);
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 25px;
+    grid-area: topl;
+    background-repeat: no-repeat;
+}
+
+.pd-2 {
+    background-image: url(../img/destination/brazil.png);
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 25px;
+    grid-area: topm;
+    background-repeat: no-repeat;
+}
+
+.pd-3 {
+    background-image: url(../img/destination/america.png);
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 25px;
+    grid-area: topr;
+    background-repeat: no-repeat;
+}
+.pd-4 {
+    background-image: url(../img/destination/nepal.png);
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 25px;
+    grid-area: botl;
+    background-repeat: no-repeat;
+}
+.pd-5 {
+    background-image: url(../img/destination/maldives.png);
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 25px;
+    grid-area: botm;
+    background-repeat: no-repeat;
+}
+.pd-6 {
+    background-image: url(../img/destination/indonesia.png);
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 25px;
+    grid-area: botr;
+    background-repeat: no-repeat;
+}

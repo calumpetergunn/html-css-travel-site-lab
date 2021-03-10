@@ -73,19 +73,54 @@
             <header>
                 <h2>Where do you want to go?</h2>
             </header>
-            <form action="">
-                <input type="text" placeholder="Where do you want to go?">
-                <input type="date">
-                <input type="text">
-                <input type="submit">
-            </form>
+                <form action="">
+                    <input class=where-to type="text" placeholder="Where to go?">
+                    <input class=travel-date type="date">
+                    <select class=travel-type name="travel-type" id="travel-type">
+                        <option selected disabled>Travel Type</option>
+                        <option value="Air">Air</option>
+                        <option value="Train">Train</option>
+                        <option value="Sea">Sea</option>
+                      </select>
+                    <button type="button" class=button>Search</button>
+                </form> 
         </section>
         <!-- search-end  -->
 
         <!-- popular-destination-start  -->
-        <section class="popular">
-            Popular Destinations Grid Here
-        </section>
+        
+            <section class="popular">
+                <h2>Popular Destinations</h2>
+                <section id="popular-destinations">
+                    <div id ="grid-container">
+                    <a href="" class="pd-1">
+                        <header>Italy</header>
+                        <button type="button" class=button2>07 Places</button>
+                    </a>
+                    <a href="" class="pd-2">
+                        <header>Brazil</header>
+                        <button type="button" class=button2>03 Places</button>
+                    </a>
+                    <a href="" class="pd-3">
+                        <header>America</header>
+                        <button type="button" class=button2>10 Places</button>
+                    </a>
+                    <a href="" class="pd-4">
+                        <header>Nepal</header>
+                        <button type="button" class=button2>02 Places</button>
+                    </a>
+                    <a href="" class="pd-5">
+                        <header>Maldives</header>
+                        <button type="button" class=button2>02 Places</button>
+                    </a>
+                    <a href="" class="pd-6">
+                        <header>Indonesia</header>
+                        <button type="button" class=button2>02 Places</button>
+                    </a>
+                    </div>
+                </section>
+            </section>
+        </div>
         <!-- popular-destination-end -->
 
         <!-- popular-places-start -->
